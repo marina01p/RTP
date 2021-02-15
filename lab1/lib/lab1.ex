@@ -1,6 +1,6 @@
-defmodule Ptrlab1 do
+defmodule Lab1 do
   @moduledoc """
-  Documentation for `Ptrlab1`.
+  Documentation for `Lab1`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule Ptrlab1 do
 
   ## Examples
 
-      iex> Ptrlab1.hello()
+      iex> Lab1.hello()
       :world
 
   """
