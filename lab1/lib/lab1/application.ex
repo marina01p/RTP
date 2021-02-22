@@ -5,9 +5,13 @@ defmodule Lab1.Application do
 
   use Application
 
+
+
+
   @impl true
   def start(_type, _args) do
     children = [
+
       # Starts a worker by calling: Lab1.Worker.start_link(arg)
       # {Lab1.Worker, arg}
     ]
