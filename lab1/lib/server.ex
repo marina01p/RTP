@@ -16,17 +16,17 @@ defmodule Lab1.Server do
 
 
 # server side
-  def init(msgs) do
-    {:ok, msgs}
-  end
+  # def init(msgs) do
+  #   {:ok, msgs}
+  # end
 
-  def handle_call(:get_msgs, _form, msgs) do
-    {:reply, msgs, msgs}
-  end
+  # def handle_call(:get_msgs, _form, msgs) do
+  #   {:reply, msgs, msgs}
+  # end
 
-  def handle_cast({:add_msg, msg}, msgs) do
-    {:noreply, [msg | msgs]}
-  end
+  # def handle_cast({:add_msg, msg}, msgs) do
+  #   {:noreply, [msg | msgs]}
+  # end
 
 
 end

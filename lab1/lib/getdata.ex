@@ -1,10 +1,7 @@
 defmodule Lab1.Getdata do
 
   def my_func() do
-    url = "http://localhost:4000/tweets/1"
-    r = HTTPoison.get!(url)
-    res = Poison.decode!(r.body)
-    IO.inspect(res)
+    {:ok, _pid} = EventsourceEx.new(url, stream_to: self())
   end
 
 end
